@@ -62,7 +62,7 @@ ROOT_URLCONF = 'learning_log.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'DIRS': [r'/home/kofi/Desktop/projects/learning_log/users/template/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
